@@ -9,6 +9,24 @@ body {
 
 /* Menu */
 
+#menu {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin: 0px;
+  padding: 50px;
+  list-style: none;
+  background: linear-gradient(to bottom, #0c0c0c, #212121);
+  box-shadow: 0px 6px 67px -12px rgba(0, 0, 0, 0.83);
+}
+
+#menu li a {
+  text-decoration: none;
+  font-size: 26pt;
+  color: white;
+  text-shadow: 0px 4px 12px rgba(178, 178, 178, 1);
+}
+
 /* Article */
 
 /* Footer */
