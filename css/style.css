@@ -29,6 +29,50 @@ body {
 
 /* Article */
 
-/* Page */
+#article ul li img {
+  width: "170px";
+  height: "170px";
+}
+
+#article .intro1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#article ul {
+  list-style: none;
+  margin: 25px;
+  padding: 20px 30px;
+}
+
+#article ul li img {
+  width: 90px;
+  height: 90px;
+}
+
+#article ul li a {
+  color: #2b75ff;
+  text-decoration: underline solid #12316b;
+}
+
+#article ul li {
+  margin: 20px;
+  display: flex;
+}
+
+#article ul li p {
+  margin: 5px;
+}
+
+#article li {
+  z-index: 1;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.50);
+  transition: all .3s cubic-bezier(.29, .59, .47, .8);
+}
+
+#article li:hover {
+  z-index: 5;
+  transform: scale(1.1);
+}
 
 /* Footer */
